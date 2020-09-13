@@ -18,5 +18,10 @@
       },
       "description": "Runs background.js"
     }
+  },
+  "icons": {
+    "16": "incognito-icon.png",
+    "48": "incognito-icon.png",
+    "128": "incognito-icon.png"
   }
 }
