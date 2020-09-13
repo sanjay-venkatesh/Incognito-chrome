@@ -1,6 +1,6 @@
-chrome.browserAction.onClicked.addListener(function ({ url }) {
+chrome.browserAction.onClicked.addListener(function ({ url, incognito }) {
   chrome.windows.create({
     url,
-    incognito: true,
+    incognito: !incognito,
   });
 });

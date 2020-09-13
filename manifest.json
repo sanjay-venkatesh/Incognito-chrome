@@ -1,6 +1,6 @@
 {
   "name": "Incognito Tab extension",
-  "description": "1 click shortcut for opening a tab in incognito.",
+  "description": "1 click shortcut to toggle between incognito.",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
